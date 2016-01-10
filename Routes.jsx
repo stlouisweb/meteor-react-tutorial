@@ -5,3 +5,10 @@ FlowRouter.route("/", {
 		})
   }
 });
+FlowRouter.route("/login", {
+	action: function() {
+		ReactLayout.render(MainLayout, {
+			content: <Login />
+		})
+	}
+});
