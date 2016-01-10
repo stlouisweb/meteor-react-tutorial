@@ -1,7 +1,5 @@
 HomePage = React.createClass({
-	componentDidMount: function () {
-		$('#due-datepicker').datepicker();
-	},
+
   render() {
     return <div className="container-fluid">
 							<div className="row">
@@ -10,6 +8,7 @@ HomePage = React.createClass({
 								</div>
 								<div className="col-xs-7">
 									<h2>Task List</h2>
+									<TaskList />
 								</div>
 							</div>
     			 </div>
